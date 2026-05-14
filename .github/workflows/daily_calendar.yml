@@ -2,8 +2,8 @@ name: Daily GHL Calendar Update
 
 on:
   schedule:
-    - cron: "0 12 * * 1"
-    - cron: "0 12 * * 5"
+    - cron: "0 11 * * 1"  # Monday at 7:00 AM EDT (11:00 UTC)
+    - cron: "0 11 * * 5"  # Friday at 7:00 AM EDT (11:00 UTC)
   workflow_dispatch:
 
 jobs:
